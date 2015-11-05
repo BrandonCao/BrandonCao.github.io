@@ -1,6 +1,4 @@
-html, body {
-    height:100%;
-}
+
 
 @font-face {
     font-family:'Titillium-Light';
@@ -27,3 +25,14 @@ html, body {
 p, div {
     font-family: 'Titillium-Light';
 }
+
+.nav-pills > .active > a, .nav-pills > .active > a:hover {
+    background-color: #0b436d;
+}
+
+.indent {
+
+    .make-xs-column(2);
+    .make-sm-column(2);
+    .make-md-column(2);
+  }
