@@ -5,4 +5,25 @@ html, body {
 @font-face {
     font-family:'Titillium-Light';
     src: url(../fonts/Titillium-Light.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'Decker';
+    src: url(../fonts/Decker.ttf);
+
+}
+
+@media (max-width: @screen-xs) {
+    #headerTop{font-size: 10px;}
+}
+
+@media (max-width: @screen-sm) {
+    #headerTop{font-size: 14px;}
+}
+
+
+p, div {
+    font-family: 'Titillium-Light';
 }
