@@ -12,6 +12,14 @@
  margin-top:20px; 
 }
 
+.header{
+	font-size: 40px;
+}
+
+.info{
+	font-size:20px;
+}
+
 #logo{
 	font-family: 'Decker';
 	text-align: center;

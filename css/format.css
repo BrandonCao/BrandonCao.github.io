@@ -14,11 +14,38 @@
 }
 
 @media (max-width: @screen-xs) {
-    #headerTop,p,div{font-size: 10px;}
+    #headerTop{font-size: 10px;}
+
+    p,div{
+
+        font-size:10px;
+    }
+
+    .info{
+        font-size:10px;
+    }
+
+    .header{
+        font-size:15px;
+    }
 }
 
 @media (max-width: @screen-sm) {
-    #headerTop,p,div{font-size: 14px;}
+    #headerTop{
+        font-size: 14px;
+    }
+    p,div{
+
+        font-size:14px;
+    }
+
+     .info{
+        font-size:14px;
+    }
+
+     .header{
+        font-size:15px;
+    }
 }
 
 
@@ -28,6 +55,12 @@ p, div {
 
 .nav-pills > .active > a, .nav-pills > .active > a:hover {
     background-color: #0b436d;
+}
+
+.myPic{
+
+    width: 70%;
+    height: 70%;
 }
 
 .indent {
