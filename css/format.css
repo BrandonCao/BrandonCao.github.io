@@ -13,40 +13,6 @@
 
 }
 
-@media (max-width: @screen-xs) {
-    #headerTop{font-size: 10px;}
-
-    p,div{
-
-        font-size:10px;
-    }
-
-    .info{
-        font-size:10px;
-    }
-
-    .header{
-        font-size:15px;
-    }
-}
-
-@media (max-width: @screen-sm) {
-    #headerTop{
-        font-size: 14px;
-    }
-    p,div{
-
-        font-size:14px;
-    }
-
-     .info{
-        font-size:14px;
-    }
-
-     .header{
-        font-size:15px;
-    }
-}
 
 
 p, div {
