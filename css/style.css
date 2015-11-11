@@ -12,6 +12,10 @@
  margin-top:20px; 
 }
 
+.default-top-space{
+	margin-top:80px;
+}
+
 .header{
 	font-size: 40px;
 }
