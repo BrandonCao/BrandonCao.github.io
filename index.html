@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <script type="text/javascript" src="js/jQuery/jquery-2.1.1.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/format.css">
@@ -9,29 +10,32 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
     <link rel="shortcut icon" href="images/bc.ico"/>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/jQuery/jquery-2.1.1.js"></script>
+
     <title> What's Good</title>
 </head>
-  <!--Start Body-->
+
+
+
 <body>
 <div class="container-fluid">
   <div class="row" id="navigation">
     <div class="col-md-12 col-sm-12 col-xs-12">
       <p id="name">Brandon Cao</p>
     </div>
-
   </div>
 </div>
 
 
   <!--END ROW-->
+  <div id="about">
 <div class="container">
   <div class="row" style="padding-bottom:5%; padding-top:4%">
     <div class="col-md-2 "></div>
       <div class="col-md-4 col-xs-12 col-sm-12 top-space" style="margin-top: 100px" align="center">
-        <img src="images/headshot.jpg" class="img-circle" height="70%" width="70%">
+        <img src="images/headshot.jpg" id="me" class="img-circle" height="70%" width="70%">
       </div>
        <div class="col-md-5 col-xs-12 col-sm-12 top-space" style="margin-top: 100px">
+
             <p style="font-size: 200%"> About Me </p>
             <div style="font-size:120%">
             <p>Student at the University of Oregon, majoring in Computer Science with a minor in Business.</p>
@@ -135,10 +139,18 @@
   </div>
   <!--END ROW-->
 
-
+</div>
 
  </body>
+<script>
+$(document).ready(function() {
+    $('#navigation').fadeIn(1000);
+    $('#me').delay(100).fadeIn(1000);
+    $('#name').delay(600).fadeIn(1000);
+    $('#about').delay(700).fadeIn(1000);
+});
 
+</script>
 
 
 
