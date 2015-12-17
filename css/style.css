@@ -32,6 +32,13 @@
 
 }
 
+div#navigation{ display: none; }
+
+div#about{ display: none; }
+p#name{ display: none; }
+
+img#me{ display: none; }
+
 
 .project{
 	font-size: 200%;
