@@ -49,10 +49,18 @@
 
 }
 
-div#navigation{ display: none; }
+div#navigation
+{ 
+	display: none;
+}
 
-div#about{ display: none; }
-p#name{ display: none; }
+div#about{ 
+	display: none;
+}
+
+p#name{
+	display: none;
+}
 
 img#me{ 
 	display: none; 
@@ -102,11 +110,12 @@ a{
 
 }
 
-.headline{
+.headline > u {
 
 	font-size: 250%;
 	padding-bottom:2%;
 }
+
 
 .skills{
 	 margin-top:80px;
@@ -118,4 +127,10 @@ a{
 
 #aboutMe{
 	margin-top: 70px;
+}
+
+
+#aboutMe > p.about{
+	font-size: 250%;
+	padding-bottom:2%;
 }
