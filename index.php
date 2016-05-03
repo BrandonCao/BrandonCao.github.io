@@ -17,7 +17,6 @@
         $('#me').delay(100).fadeIn(1000);
         $('#name').delay(600).fadeIn(1000);
         $('#about').delay(700).fadeIn(1000);
-        $('#projectView').delay(700).fadeIn(1000);
     });
 
     </script>
@@ -34,7 +33,11 @@
       <p id="name">Brandon Cao</p>
     </div>
     <div class="col-md-7 col-sm-1 col-xs-1"></div>
-    <div class="col-md-2 col-sm-6 col-xs-6">
+    <div class="col-md-1 col-sm-3 col-xs-3">
+      <p id="linkedIn"> LinkedIn</p>
+    </div>
+    <div class="col-md-1 col-sm-3 col-xs-3">
+      <p id="gitHub">gitHub</p>
     </div>
   </div>
 </div>
@@ -44,12 +47,12 @@
   <div class="container">
   <div class="row" style="padding-bottom:5%; padding-top:4%">
     <div class="col-md-2 "></div>
-      <div class="col-md-4 col-xs-12 col-sm-12 top-space" id="pictureSec">
+      <div class="col-md-4 col-xs-12 col-sm-12 top-space" style="margin-top: 100px" align="center">
         <img src="images/headshot.jpg" id="me" class="img-circle" height="70%" width="70%">
       </div>
-       <div class="col-md-5 col-xs-12 col-sm-12 top-space" id="aboutMe">
+       <div class="col-md-5 col-xs-12 col-sm-12 top-space" style="margin-top: 100px">
 
-            <p class="headline" >About Me </p>
+            <p style="font-size: 200%">About Me </p>
             <div style="font-size:120%">
             <p>Student at the University of Oregon, majoring in Computer Science with a minor in Business.</p>
             <p>Currently working as a Software Engineer/Web developer for the Daily Emerald.
@@ -66,49 +69,31 @@
     <!--END ROW-->
 
 <!--PROJECTS-->
-    <div id='projectView' class="container">
+    <div class="container">
       <div class="row blueTop" style="padding-bottom:5%;">
         <div class="col-md-1 "></div>
            <div class="col-md-9 col-xs-12 col-sm-12 top-space" style="margin-top: 100px">
-             <div class="headline"><u>Projects:</u></div>
+             <div style="font-size: 200%; padding-bottom:2%"><u>Projects:</u></div>
 
              <div class="project">
                 <a href="https://github.com/BrandonCao/pnmImageManipulator">PNM Image Manipulator</a>
              </div>
              <div class="des">
-               <li>Implemented 1000-line image-manipulation project in C/C++ over the course of the quarter using elaborate inheritance hierarchies, event logging, exception handling, file IO</li>
-               <li>Functionality includes filters and effects such as blending, cropping, and inverting images</li>
+               <li>Image manipulator pipeline containing a collection of filters for PNM image manipulation.</li>
+               <li>C++ project</li>
 
              </div>
-
-
-              <div class="project">
-                <a href="https://github.com/BrandonCao/Address-Book">Address Book</a>
-             </div>
-             <div class="des">
-
-             <li>Purpose of project was to work on Software Engineering techniques, project was planned and built using the iterative process.</li>
-
-             <li><a href="https://www.assembla.com/spaces/xis22w16-team5/git/source">Documentation of project</a></li>
-
-             <li>Built in: Python 3.4.1, Tkinter, and SQLite3</li>
-
-             </div>
-
-
-
 
              <div class="project">
                 <a href="https://github.com/BrandonCao/mcp/blob/master/mcp.c">Master Control Processor (MCP)</a>
              </div>
              <div class="des">
                <li>C project</li>
-               <li>MThe Master Control Program is a lightweight version of the Burroughs MCP that can fork a
-process and run the child processes concurrently. Each process is given 1 second at a time and if the process does not complete, it pauses it and lets the next process run before cycling back and letting it continue if it has not finished.</li>
- 
+               <li>MCP will read a list of programs (with arguments) to run from a file, start up and run the programs as processes. Program will then schedule the processes to run concurrently in a time-sliced manner.</li>
+               <li>MCP monitors the processes, keeping track of how the processes are using system resources</li>
              </div>
 
-              <div class="headline"><u>Web:</u></div>
+              <div style="font-size: 200%; padding-bottom:2%;padding-top:2%"><u>Web:</u></div>
               <div class="project">
                  <a href="http://dailyemerald.github.io/Is-Weezer-Cool-Again/">Is Weezer Cool Again?</a>
                 <div style="padding-left:2%;font-size:50%;">
@@ -140,22 +125,22 @@ process and run the child processes concurrently. Each process is given 1 second
     <div class="row blueTop">
     <div class="col-md-1 default-top-space"></div>
       <div class="col-md-5 col-xs-12 col-sm-12">
-        <p class="skills"> <u>Languages + Framework</u> </p>
+        <p class="info" align="center" style="margin-top:80px"> <u style="font-size: 180%">Languages + Framework</u> </p>
         <p >
           <ul style="font-size:120%;padding-bottom:4%;">
             <li>Python</li>
             <li>Java</li>
-            <li>Swift 2</li>
-            <li>Web Development (HTML, JavaScript, CSS)</li>
+            <li>C/C++</li>
+            <li>Swift</li>
+            <li>Web Development</li>
             <li>Cloud Development (AWS)</li>
-            <li>MySQL</li>
-            <li>Flask</li>
+            <li>C#</li>
             </ul>
           </p>
       </div>
       <!--SKILLS-->
       <div class="col-md-5 col-xs-12 col-sm-12" >
-        <p class="skills"><u>Other Skills:</u> </p>
+        <p class="info" style="margin-top:80px" align="center"><u style="font-size:180%">Other Skills:</u> </p>
           <ul style="font-size:120%; padding-bottom:4%;">
             <li>Consulting</li>
             <li>Git</li>

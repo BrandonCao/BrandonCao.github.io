@@ -25,6 +25,23 @@
 	float: left;
 }
 
+#navigation p#linkedIn{
+	vertical-align: center;
+	padding-left: 15px;
+	padding-top: 10px;
+	font-size: 1.5em;
+	color: white;
+	float: left;
+}
+#navigation p#gitHub{
+	vertical-align: center;
+	padding-left: 15px;
+	padding-top: 10px;
+	font-size: 1.5em;
+	color: white;
+	float: left;
+}
+
 .blueTop{
 	border-top-color: #0b436d;
 	border-top-style: solid;
@@ -37,7 +54,15 @@ div#navigation{ display: none; }
 div#about{ display: none; }
 p#name{ display: none; }
 
-img#me{ display: none; }
+img#me{ 
+	display: none; 
+	
+}
+
+#pictureSec{
+	margin-top: 100px;
+	text-align: center;
+}
 
 
 .project{
@@ -75,4 +100,22 @@ a{
 	text-align: center;
 	font-size: 50px;
 
+}
+
+.headline{
+
+	font-size: 250%;
+	padding-bottom:2%;
+}
+
+.skills{
+	 margin-top:80px;
+	 text-align: center;
+}
+.skills u{
+	font-size: 250%;
+}
+
+#aboutMe{
+	margin-top: 70px;
 }
