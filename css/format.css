@@ -14,59 +14,141 @@
 }
 
 
-ul{
-    font-size:20px;
 
-}
 p, div {
     font-family: 'Titillium-Light';
 }
 
-.nav-pills > .active > a, .nav-pills > .active > a:hover {
-    background-color: #0b436d;
+
+@media screen and (max-width: 532px){
+    #header{
+        text-align: center;
+    }
+
+    #mainHeader{
+        padding-left: 0;
+        padding-right: 0;    
+    }
+
+    #mainHeader > div.header{
+        width: 100vw;
+        text-align: center;
+        font-size: 400%;
+
+    }
+
+        div.menu > button.btn{
+        text-align: center;
+        margin-top: 5%;
+        width: 70%;
+        background-color: black;
+        color:white;
+        opacity: .6;
+        font-size: 150%;
+        border-radius: 0px;
+        border-color: 
+    }
+
+    div.menu > button.btn{
+        text-align: center;
+        margin-top: 5%;
+        width: 70%;
+        background-color: black;
+        color:white;
+        opacity: .6;
+        font-size: 150%;
+        border-radius: 0px;
+        border-color: 
+    }
+
+    .container.sectionTitle{
+        text-align: center;
+    }
+
+    .aboutMeText p{
+        margin-top: 4%;
+        font-size: 100%;
+    }
+
+    .sectionHeader{
+        font-size: 300%;
+    }
+
+    ul{
+        font-size: 100%;
+    }
+
+    .projectHeader{
+        margin-top: 1%;
+        font-size: 140%;
+        text-align: center;
+    }
+
+    .projectSubHeader{
+        font-size: 120%;
+        text-align: center;
+
+    }
+
+
 }
 
-.myPic{
-
-    width: 70%;
-    height: 70%;
-}
-
-.indent {
-
-    .make-xs-column(2);
-    .make-sm-column(2);
-    .make-md-column(2);
-  }
-
-
-  #mobileMap {
-    display: none;
-}
-
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 330px){
     
-    img#me{
-        width:40%;
-        height: 40%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    p.skills{
-        margin-top: 10px;
-    }
-}
-
-@media screen and (max-width: 640px){
-
-    img#me{
-        width:50%;
-        height: 50%;
-
+    #header{
+        text-align: center;
     }
 
+    #mainHeader{
+        padding-left: 0;
+        padding-right: 0;    
+    }
+
+    #mainHeader > div.header{
+        width: 100vw;
+        text-align: center;
+        font-size: 350%;
+    
+    }
+
+    div.menu > button.btn{
+        text-align: center;
+        margin-top: 5%;
+        width: 70%;
+        background-color: black;
+        color:white;
+        opacity: .6;
+        font-size: 150%;
+        border-radius: 0px;
+        border-color: 
+    }
+
+    .container.sectionTitle{
+        text-align: center;
+    }
+
+    .aboutMeText p{
+        margin-top: 4%;
+        font-size: 100%;
+    }
+
+    .sectionHeader{
+        font-size: 300%;
+    }
+
+    ul{
+        font-size: 100%;
+    }
+
+    .projectHeader{
+        margin-top: 1%;
+        font-size: 140%;
+        text-align: center;        
+    }
+
+    .projectSubHeader{
+        font-size: 120%;
+        text-align: center;
+    }
 
 }
-
-
