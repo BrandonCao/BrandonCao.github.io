@@ -1,0 +1,44 @@
+body{
+	background-color: white;
+}
+
+.logo{
+	margin-left: 3%;
+	font-size:500%;
+}
+
+.navbar.navbar-default{
+	background-color: white;
+	border-style:none;
+}
+
+.leftSide{
+	width: 100%;
+	text-align: center;
+	padding-top:5%;
+}
+
+
+.rightSide{
+	width: 90%;
+	text-align: center;
+	padding-top:4%;
+}
+
+.leftSide> img{
+	height:70%;
+}
+
+
+.header{
+	font-size:400%;
+}
+
+.aboutMe{
+	text-align: left;
+}
+
+.linkedIn{
+	color: #0077B5;
+	font-size: 120%;
+}
